@@ -9,7 +9,7 @@ proxyServer.start(ex -> {});
 // boom!
 ```
 
-### Here's the pom coordinates for the latest release:
+#### Here's the pom coordinates for the latest release:
 
 ```  
   <repositories>
