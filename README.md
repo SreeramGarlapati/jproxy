@@ -1,7 +1,7 @@
 ## jproxy
-HTTP proxy library, in java, for java developers...
+HTTP proxy server, in java, for java developers...
 
-**main goals** of this project is to provide a high-performant, a simple-to-spin-up HTTP proxy library for java developers - where they can spin off a proxy-server - with an API as-simple-as:
+**main goals** of this project is to provide a high-performant, a simple-to-spin-up HTTP proxy server for java developers - where they can spin off a proxy-server - with an API as-simple-as:
 
 ```java
 ProxyServer proxyServer = ProxyServer.create("localhost", 8899);
