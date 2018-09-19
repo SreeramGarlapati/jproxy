@@ -14,7 +14,7 @@ proxyServer.start(ex -> {});
 ```  
   <repositories>
     <repository>
-      <id>POC SNAPSHOT repository for EventHubs client SDK to connect using websockets over proxies</id>
+      <id>HTTP proxy server in java, for java developers...</id>
       <url>http://raw.github.com/SreeramGarlapati/jproxy/master/releases</url>
     </repository>
   </repositories>
