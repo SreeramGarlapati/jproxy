@@ -9,6 +9,22 @@ proxyServer.start(ex -> {});
 // boom!
 ```
 
-which can be used to - but, not limited to - perform various operations like, 
-* host a custom proxy server - u a java dev - read the code, understand it & host it! who would want to **buy** a sniffer on their traffic! with **jproxy** - you can read, understand & only then, run!
-* run tests / simulations for proxy related logic in codebases etc.
+# Here's the pom coordinates for the latest release:
+
+```  
+  <repositories>
+    <repository>
+      <id>POC SNAPSHOT repository for EventHubs client SDK to connect using websockets over proxies</id>
+      <url>http://raw.github.com/SreeramGarlapati/jproxy/master/releases</url>
+    </repository>
+  </repositories>
+```
+
+```
+  <dependency>
+    <groupId>org.jutils.jproxy</groupId>
+    <artifactId>jproxy</artifactId>
+    <version>0.0.1</version>
+  </dependency>
+```
+
