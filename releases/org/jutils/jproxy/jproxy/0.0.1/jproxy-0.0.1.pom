@@ -6,4 +6,11 @@
   <artifactId>jproxy</artifactId>
   <version>0.0.1</version>
   <description>HTTP proxy server in java</description>
+  <dependencies>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>1.7.25</version>
+	</dependency>
+  </dependencies>
 </project>
